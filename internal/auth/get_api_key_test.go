@@ -24,7 +24,7 @@ func TestGetAPIKey(t *testing.T) {
 	// Check if the return value is correct for the correct headers
 	header.Set("Authorization", "ApiKey 1234")
 	res, err := GetAPIKey(header)
-	if res != "12345" || err != nil {
+	if res != "1234" || err != nil {
 		t.Fatalf("expected: (%v, %v), got: (%v, %v)", "1234", nil, res, err)
 	}
 }
