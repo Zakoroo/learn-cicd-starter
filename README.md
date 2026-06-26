@@ -1,4 +1,4 @@
-![https://github.com/Zakoroo/learn-cicd-starter/actions/workflows/ci.yml/badge.svg](IMAGE_URL)
+![CI](https://github.com/Zakoroo/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
